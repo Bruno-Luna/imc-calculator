@@ -11,32 +11,32 @@
 
 <body>
     <header>
-        <h1>I.M.C</h1>
+        <h1>Calc I.M.C</h1>
+        
     </header>
     <section class="container">
         <form id="formulario">
 
             <fieldset>
-                <legend>Cálculo do I.M.C</legend>
+                <legend>I.M.C</legend>
 
-                <input type="text" name="kilos"  autofocus/>
+                <input type="number" name="kilos"  autofocus/>
                 <label for="kilos">Kilos</label>
                 <br>
-                <input type="text" name="metros"/>
+                <input type="number" name="metros"/>
                 <label for="metros">Metro(s)</label>
                 <br>
-                <input type="text" name="centimetros"/>
+                <input type="number" name="centimetros"/>
                 <label for="centimetros">Centímetros</label>
                 <br>
                 <input type="text" name="imc" disabled="disabled"/>
                 <label for="imc">I.M.C</label>
 
-                <p id="res">Resultado =</p>
+                <p id="res"></p>
 
                 <a href="#" onclick="calcularIMC();">Calcular</a>
             </fieldset>
-        
-        
+      
     <table>
         <tr>
             <th class="number title">I.M.C</th>

@@ -1,12 +1,27 @@
+:root {
+    --colorBackground: rgba(0, 0, 0, 0.979);
+    --colorTitles: #20ED00;
+    --colorCalc: #FBFBFB;
+    --colorBorder: #8a8a8ae1;
+    --colorMeasure: yellow;
+}
 body{
     font: normal 20px sans-serif;
-    background-color: rgba(255, 238, 89, 0.614);
+    background-color: var(--colorBackground);
 }
 
 header{
-    color: rgb(0, 0, 0);
+    color: yellow;
     text-align: center;
+}
 
+legend{
+    color: var(--colorTitles);
+    margin-bottom: 0.75rem;
+}
+
+label{
+    color: var(--colorMedidas);
 }
 
 section{
@@ -15,9 +30,8 @@ section{
     margin: auto;
     font-weight: 700;
     border-radius: 20px;
-    color: rgba(255, 200, 0, 0.883);
+    color: var(--colorCalc);
     background-color: rgba(0, 0, 0, 0.924);
-    
    
 }
 
@@ -25,26 +39,39 @@ fieldset{
     width: 250px;
     height: 290px;
     margin-top: 15px;
-    border:1px solid rgba(255, 200, 0, 0.62);
-    
+    border:1px solid var(--colorBorder) ;
+    border-radius: 20px; 
 }
 
 input{
-    background-color: whitesmoke;
+    background-color: transparent;
+    color: var(--colorCalc);
+    text-align: center;
     margin-left: 10px;
     width: 50px;
     font-weight: 700;
     height: 25px;
-    border-radius: 5px;
+    border: 2px solid var(--colorBorder);
     outline-style: none;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
 #res{
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 a{
-    color: rgb(255, 0, 0);
+    color: var(--colorTitles);
     font-size: 20px;
     text-decoration: none;
     padding: 7px;
@@ -60,23 +87,23 @@ a{
 }
 
 table{
-    border: 1px solid rgba(255, 0, 0, 0.883);
+    border: 1px solid var(--colorBorder);
     font-size: 16px;
     text-align: center;
     float: left;
     padding: 0.70rem;
-    
+    border-radius: 20px;
 }
 .number{
     padding-right: 1.2rem;
 }
 .title{
-    color: red;
+    color: var(--colorTitles);
 }
 
 footer{
     margin-top: 10px;
-    color: rgb(0, 0, 0);
+    color: var(--colorTitles);
     text-align: center;
     font-style: italic;
     font-weight: 700;
