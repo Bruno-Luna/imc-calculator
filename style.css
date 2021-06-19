@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 :root {
-    --colorPri: #0d1b2a;
-    --colorSec: #778da9;
-    --colorTec: #1b263b;
-    --colorQua: #e0e1dd;
+    --colorPri: ;
+    --colorQua: ;
+    --colorSec: ;
+    --colorTec: ;
 }
 
 *{
@@ -10,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -22,12 +25,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--colorPri);
+    height: 20vh;
+    background-color: ;
 }
 
 header h1{
-    font-size: 2rem;
-    color: var(--colorQua);
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: ;
 
 }
 
@@ -35,17 +40,18 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    height: 95vh;
+   
 }
 
 section .container{
+    height: 70vh;
 }
 
 form{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin: 0 16px;
 }
 
 form .formulario{
@@ -56,20 +62,22 @@ form .formulario{
 }
 
 fieldset{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 fieldset, table{
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 }
 
 h2{
+    font-size: 1.4rem;
     margin-top: .7rem;
-    text-align: center; 
+    text-align: center;
+    border: 1px solid; 
 }
 
 legend{
-   
+   font-size: 1.4rem;
 }
 
 input{
@@ -80,24 +88,40 @@ input{
 }
 
 label{
-
+    font-size: 1.1rem;
 }
 
 table{
+    text-align: center;
     border: 1px solid black;
+}
+
+th, td{
+   padding: .5rem;
+}
+
+th{
+    font-size: 1.1rem;
+}
+
+td{
+    font-size: .9rem;
 }
 
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 15vh;
+    margin-top: 1rem;
     letter-spacing: 3px;
-    background-color: var(--colorTec);
-    color: var(--colorSec);
+    background-color: ;
+    color: ;
+    font-weight: 300;
 }
 
-span{
-
+span a{
+    color: rgb(87, 31, 31);
 }
 
 @media screen and (min-width: 768px) {
@@ -111,22 +135,33 @@ span{
     form{
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 50px;
     }
+
     legend{
         font-size: 1.5rem;
     }
 
-    fieldset{
+    fieldset, table {
+        padding: .6rem 1rem;
         margin-top: 0;
     }
 
+    th, td{
+        padding: .3rem;
+     }
+
+     h2 {
+        margin-top: 1.5rem;
+     }
+
     section {
-        height: 60vh;
+        height: 61vh;
 
     }
     footer{
         height: 16vh;
+        font-size: 14px;
     }
 
 }
