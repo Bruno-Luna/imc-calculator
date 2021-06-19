@@ -12,69 +12,69 @@
 <body>
     <header>
         <h1>Calc I.M.C</h1>
-        
     </header>
     <section class="container">
+        
         <form id="formulario">
-
-            <fieldset>
-                <legend>I.M.C</legend>
-
-                <input type="number" name="kilos"  autofocus/>
+        <fieldset>
+            <legend>I.M.C</legend>
+            
+                <input type="number" name="kilos" maxlength="3" autofocus />
                 <label for="kilos">Kilos</label>
                 <br>
-                <input type="number" name="metros"/>
+                <input type="number" name="metros" />
                 <label for="metros">Metro(s)</label>
                 <br>
-                <input type="number" name="centimetros"/>
+                <input type="number" name="centimetros" />
                 <label for="centimetros">Centímetros</label>
                 <br>
-                <input type="text" name="imc" disabled="disabled"/>
+                <input type="text" name="imc" disabled="disabled" />
                 <label for="imc">I.M.C</label>
 
                 <p id="res"></p>
 
-                <a href="#" onclick="calcularIMC();">Calcular</a>
+              <h2> <a href="#" onclick="calcularIMC();">Calcular</a></h2> 
             </fieldset>
-      
-    <table>
-        <tr>
-            <th class="number title">I.M.C</th>
-            <th class="title">Classificação</th>
-        </tr>
-        <tr>
-            <td class="number"> < 20 </td>
-            <td>Abaixo do Peso</td>
-        </tr>
-        <tr>
-            <td class="number"> 20 a 25</td>
-            <td>Peso Ideal</td>
-        </tr>
-        <tr>
-            <td class="number"> 25 a 30 </td>
-            <td>Sobrepeso</td>
-        </tr>
-        <tr>
-            <td class="number"> 30 a 35 </td>
-            <td>Obesidade Moderada</td>
-        </tr>
-        <tr>
-            <td class="number"> 35 a 40 </td>
-            <td>Obesidade Severa</td>
-        </tr>
-        <tr>
-            <td class="number"> 40 a 45 </td>
-            <td>Obesidade Móbida</td>
-        </tr>
-        <tr>
-            <td class="number"> > 50</td>
-            <td>Super Obesidade</td>
-        </tr>   
-    </table>
-</section>
-</form>
 
-    <footer>by Bruno Luna</footer>
+            <table>
+                <tr>
+                    <th class="number title">I.M.C</th>
+                    <th class="title">Classificação</th>
+                </tr>
+                <tr>
+                    <td class="number"> < 20 </td>
+                    <td>Abaixo do Peso</td>
+                </tr>
+                <tr>
+                    <td class="number"> 20 a 25</td>
+                    <td>Peso Ideal</td>
+                </tr>
+                <tr>
+                    <td class="number"> 25 a 30 </td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td class="number"> 30 a 35 </td>
+                    <td>Obesidade Moderada</td>
+                </tr>
+                <tr>
+                    <td class="number"> 35 a 40 </td>
+                    <td>Obesidade Severa</td>
+                </tr>
+                <tr>
+                    <td class="number"> 40 a 45 </td>
+                    <td>Obesidade Móbida</td>
+                </tr>
+                <tr>
+                    <td class="number"> > 50</td>
+                    <td>Super Obesidade</td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+
+    <footer>Made by: <span>Bruno Luna</span></footer>
 
     <script src="script.js"></script>
 </body>
