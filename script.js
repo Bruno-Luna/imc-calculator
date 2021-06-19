@@ -19,25 +19,25 @@ function calcularIMC(){
 
        if (imc <= 20){
         resultado.innerText = 'Abaixo do Peso'
-        resultado.style.color += 'red'
+        resultado.style.color += '#b7094c'
        } else if( imc > 20 && imc <= 25){
         resultado.innerText = 'Peso Ideal'
-        resultado.style.color += 'red'
+        resultado.style.color += '#b7094c'
        }else if( imc > 25 && imc <= 30){
         resultado.innerText = 'Sobrepeso'
-        resultado.style.color += 'red'
+        resultado.style.color += '#b7094c'
        }else if( imc > 30 && imc <= 35){
         resultado.innerText = 'Obesidade Moderada'
-        resultado.style.color += 'red'
+        resultado.style.color += '#b7094c'
        }else if( imc > 35 && imc <= 40){
         resultado.innerText = 'Obesidade Severa'
-        resultado.style.color += 'red'
+        resultado.style.color += '#b7094c'
        }else if( imc > 40 && imc <= 50){
         resultado.innerText = 'Obesidade Mórbida'
-        resultado.style.color += 'red'
+        resultado.style.color += '#b7094c'
        }else if ( imc > 50){
         resultado.innerText = 'Super Obesidade'
-        resultado.style.color += 'red'
+        resultado.style.color += '#b7094c'
        }else{
            alert('Preencha todos os dados')
        }
