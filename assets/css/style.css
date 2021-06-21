@@ -69,14 +69,17 @@ legend{
 }
 
 input{
-    width: 70px;
-    height: 30px;
+    width: 60px;
+    padding-left: .3rem;
     margin-bottom: .5rem;
     border: 2px solid hsl(0, 0%, 20%);
     font-size: 1rem;
     font-weight: 500;
-    text-align: center;
+    outline: none;
     
+}
+.numberImc{
+    font-weight: 600;
 }
 
 label{
@@ -87,7 +90,7 @@ p {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--colorQua);
+    color: var(--colorPri);
     margin-top: .5rem;
 }
 
