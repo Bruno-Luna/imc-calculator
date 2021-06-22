@@ -5,6 +5,7 @@
     --colorSec: #723c70;
     --colorTec: #0091AD;
     --colorQua:  #b7094c;
+    --colorBorder: hsl(0, 0%, 35%);
 }
 
 *{
@@ -53,7 +54,7 @@ form{
 }
 
 fieldset{
-    border: 2px solid hsl(0, 0%, 30%);
+    border: 2px solid var(--colorBorder);
     margin-top: 2rem;
 }
 
@@ -72,7 +73,7 @@ input{
     width: 60px;
     padding-left: .3rem;
     margin-bottom: .5rem;
-    border: 2px solid hsl(0, 0%, 20%);
+    border: 2px solid var(--colorBorder);
     font-size: 1rem;
     font-weight: 500;
     outline: none;
@@ -108,7 +109,7 @@ h2 a{
 
 table{
     text-align: center;
-    border: 2px solid hsl(0, 0%, 30%);
+    border: 2px solid var(--colorBorder);
     font-weight: 500;
 }
 
@@ -123,7 +124,7 @@ td{
 }
 
 th, td{
-    border: 2px solid hsl(0, 0%, 30%);
+    border: 2px solid var(--colorBorder);
     padding: .5rem;
  }
  
@@ -154,7 +155,7 @@ fieldset, input, h2, table, th,td {
     }
 
     header{
-        height: 20vh;
+        height: 15vh;
     }
 
     form{
@@ -168,7 +169,7 @@ fieldset, input, h2, table, th,td {
     }
 
     section {
-        height: 61vh;
+        height: 66vh;
     }
 
     p{
