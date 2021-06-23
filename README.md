@@ -1,12 +1,14 @@
 # Calc I.M.C
 
-## 
+Este projeto foi desenvolvido para ampliar algumas noções  ao que se refere a linguagem Javascript, como por exemplo condicionais: *if/else* . Para além disto, o que tange a parte de *CSS* , foi pensado e executado o conceito de *mobile-first*.
 
 
 
 ## :tada: Link:
 
 ## https://bruno-luna.github.io/imc-calculator/
+
+
 
 ## Feito com:
 
@@ -27,8 +29,8 @@
        - css/
          - style.css
     - - screenshot/
-        - desktop.jpg
-        - mobile.jpg
+        - desktop.png
+        - mobile.png
       - js/
         - script.js
 
@@ -52,3 +54,6 @@
 
 ## Screenshot:
 
+![](https://github.com/Bruno-Luna/imc-calculator/blob/master/assets/screenshot/desktop.png)
+
+![](https://github.com/Bruno-Luna/imc-calculator/blob/master/assets/screenshot/mobile.png)
