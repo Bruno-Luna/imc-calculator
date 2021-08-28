@@ -63,7 +63,7 @@ fieldset, table{
     padding: 1rem 1rem;
 }
 
-fieldset, input, h2, table, th,td {
+fieldset,div, input, h2, table, th,td {
     border-radius: 5px;
 }  
 
@@ -102,7 +102,10 @@ label{
 }
 
 div{
-    text-align: center;
+    border: 2px solid var(--colorQua);
+}
+div span{
+    margin-left: .4rem;
 }
 
 p {

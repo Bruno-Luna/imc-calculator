@@ -1,16 +1,18 @@
-# Calc I.M.C
+# I.M.C - Calculator
 
-Este projeto foi desenvolvido para ampliar algumas noções  ao que se refere a linguagem Javascript, como por exemplo condicionais: *if/else* . Para além disto, o que tange a parte de *CSS* , foi pensado e executado o conceito de *mobile-first*.
+<hr>
+
+<img src="https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565" alt="APM" style="zoom: 67%;" />
+
+Este projeto foi desenvolvido para colocar em prática algumas noções  ao que se refere a linguagem Javascript, juntamente com HTML, bem como a estilização da página. Para além disto,a aplicação web foi pensada e executada sob os conceito de *mobile-first*.
 
 
 
 ## :tada: Link:
 
-## https://bruno-luna.github.io/imc-calculator/
 
 
-
-## Feito com:
+## :computer: Feito com:
 
 - [![HTML5](https://camo.githubusercontent.com/3fd58db04ae96181db91ff9cee08bca4ca6db9db8dd38f2063f26781eaeb67e4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c352d3030303030303f7374796c653d666c6174266c6f676f3d68746d6c35)](https://camo.githubusercontent.com/3fd58db04ae96181db91ff9cee08bca4ca6db9db8dd38f2063f26781eaeb67e4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c352d3030303030303f7374796c653d666c6174266c6f676f3d68746d6c35)
 
@@ -20,7 +22,7 @@ Este projeto foi desenvolvido para ampliar algumas noções  ao que se refere a 
 
   
 
-## Estrutura do diretório:
+## 📂 Estrutura do diretório:
 
   - I.M.C/
     - index.html
@@ -34,7 +36,7 @@ Este projeto foi desenvolvido para ampliar algumas noções  ao que se refere a 
       - js/
         - script.js
 
-## Especificações:
+## :🎨 Especificações:
 
 - Fonte utilizada:  `Ubuntu, sans-serif;`
 
@@ -52,8 +54,5 @@ Este projeto foi desenvolvido para ampliar algumas noções  ao que se refere a 
 
     
 
-## Screenshot:
+## 📸 Screenshot:
 
-![](https://github.com/Bruno-Luna/imc-calculator/blob/master/assets/screenshot/desktop.png)
-
-![](https://github.com/Bruno-Luna/imc-calculator/blob/master/assets/screenshot/mobile.png)
