@@ -31,7 +31,7 @@ header{
 }
 
 header h1{
-    font-size: 2.5rem;
+    font-size: 3.6rem;
     font-weight: 500;
     color: white;
 }
@@ -49,47 +49,65 @@ section .container{
 form{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     margin: 0 16px;
 }
 
 fieldset{
     border: 2px solid var(--colorBorder);
     margin-top: 2rem;
+    width: 15rem;
 }
 
 fieldset, table{
     padding: 1rem 1rem;
 }
 
+fieldset, input, h2, table, th,td {
+    border-radius: 5px;
+}  
+
 legend{
    font-weight: 700;
    font-size: 1.4rem;
-   
    color: var(--colorSec);
+
+}
+span{
+    font-size: 1.2rem;
 }
 
 input{
-    width: 60px;
-    padding-left: .3rem;
-    margin-bottom: .5rem;
+    width: 4.6rem;
+    padding: .3rem;
+    margin: .5rem 0;
     border: 2px solid var(--colorBorder);
     font-size: 1rem;
     font-weight: 500;
     outline: none;
     
 }
-.numberImc{
-    font-weight: 600;
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
 }
 
 label{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+}
+
+div{
+    text-align: center;
 }
 
 p {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: var(--colorPri);
     margin-top: .5rem;
@@ -110,17 +128,16 @@ h2 a{
 table{
     text-align: center;
     border: 2px solid var(--colorBorder);
-    font-weight: 500;
 }
 
 th{
     color: var(--colorSec);
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 td{
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
 
 th, td{
@@ -145,10 +162,6 @@ span a{
 }
 
 
-fieldset, input, h2, table, th,td {
-    border-radius: 5px;
-}  
-
 @media screen and (min-width: 768px) {
     body{
         height: 100vh;
@@ -161,15 +174,16 @@ fieldset, input, h2, table, th,td {
     form{
         display: flex;
         flex-direction: row;
-        gap: 50px;
-    }
-
-    legend{
-        font-size: 1.5rem;
+        gap: 70px;
     }
 
     section {
         height: 66vh;
+    }
+    
+    input{
+        margin-top: 0;
+        margin-bottom: 1.2rem;
     }
 
     p{
