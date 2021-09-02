@@ -4,8 +4,6 @@ Projeto desenvolvido de forma original e que tem por objetivo informar o Índice
 
 - Aprendizados/conceitos praticados:
 
-  ​	
-
   > Tabela✔
   >
   > Flex-box✔
@@ -67,20 +65,18 @@ https://imc-calculator-livid.vercel.app/
 
   - Branco: `#ffffff`
 
-## Licença
-
-<img align=left src="https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565" alt="APM" style="zoom: 87%;" />
-
-
-
 ## 📸 Screenshot:
 
-- ### Desktop:
+### Desktop:
 
-![](C:\Users\usuario\Desktop\projetos\imc-calculator\assets\screenshot\desktop.PNG)
+![](https://github.com/Bruno-Luna/imc-calculator/blob/master/assets/screenshot/desktop.PNG)
 
 
 
 ### Mobile:
 
-![](C:\Users\usuario\Desktop\projetos\imc-calculator\assets\screenshot\mobile.PNG)
+![](https://github.com/Bruno-Luna/imc-calculator/blob/master/assets/screenshot/mobile.PNG)
+
+## Licença
+
+<img align=left src="https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565" alt="APM" style="zoom: 87%;" />
