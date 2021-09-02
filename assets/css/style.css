@@ -13,13 +13,13 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
-}
 
+}
 
 body{
     width: 100%;
     height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header{
@@ -36,6 +36,7 @@ header h1{
     color: white;
 }
 
+
 section{
     display: flex;
     justify-content: center;
@@ -50,13 +51,13 @@ form{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 0 16px;
 }
 
 fieldset{
+    margin: auto;
     border: 2px solid var(--colorBorder);
     margin-top: 2rem;
-    width: 15rem;
+    width: 16rem;
 }
 
 fieldset, table{
@@ -73,6 +74,7 @@ legend{
    color: var(--colorSec);
 
 }
+
 span{
     font-size: 1.2rem;
 }
@@ -85,8 +87,8 @@ input{
     font-size: 1rem;
     font-weight: 500;
     outline: none;
-    
 }
+
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
     
@@ -94,7 +96,6 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] { 
    -moz-appearance: textfield;
    appearance: textfield;
-
 }
 
 label{
@@ -102,7 +103,8 @@ label{
 }
 
 div{
-    border: 2px solid var(--colorQua);
+    border-bottom: 1px solid var(--colorBorder);
+    text-align: center;
 }
 div span{
     margin-left: .4rem;
@@ -113,12 +115,12 @@ p {
     font-size: 1.4rem;
     font-weight: 500;
     color: var(--colorPri);
-    margin-top: .5rem;
+    margin: .8rem 0;
 }
 
 h2{
     font-size: 1.4rem;
-    margin-top: 1rem;
+    margin: .8rem 0;
     text-align: center;
     border: 2px solid var(--colorSec); 
     padding: .4rem;
@@ -131,6 +133,8 @@ h2 a{
 table{
     text-align: center;
     border: 2px solid var(--colorBorder);
+    width: 16rem;
+    margin-bottom: 1rem;
 }
 
 th{
@@ -140,7 +144,7 @@ th{
 }
 
 td{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 th, td{
@@ -153,8 +157,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
-    margin-top: 1rem;
+    height: 12vh;
     font-size: .7rem;
     letter-spacing: 3px;
     background-color:var(--colorSec) ;
@@ -162,6 +165,10 @@ footer{
 
 span a{
     color: white;
+}
+
+span a:hover{
+    text-decoration: underline;
 }
 
 
@@ -190,7 +197,7 @@ span a{
     }
 
     p{
-        margin-top: .5rem;
+        margin-top: 1rem;
     }
 
     h2 {
@@ -199,15 +206,14 @@ span a{
 
     fieldset, table {
         padding: .6rem 1rem;
-        margin-top: 0;
     }
 
     th, td{
-        padding: .3rem;
+        padding: .4rem;
      }
 
     footer{
-        height: 16vh;
+        height: 17vh;
         font-size: 14px;
     }
 

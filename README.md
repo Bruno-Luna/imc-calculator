@@ -1,18 +1,18 @@
 # I.M.C - Calculator
 
-<hr>
-
-<img src="https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565" alt="APM" style="zoom: 67%;" />
-
-Este projeto foi desenvolvido para colocar em prática algumas noções  ao que se refere a linguagem Javascript, juntamente com HTML, bem como a estilização da página. Para além disto,a aplicação web foi pensada e executada sob os conceito de *mobile-first*.
 
 
+<img src="https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565" alt="APM" style="zoom: 77%;" />
 
-## :tada: Link:
+Aplicação web desenvolvida para colocar em prática algumas noções e estudos  ao que se refere, HTML, CSS e JavaScript.  Para além disto, a aplicação foi pensada e executada sob o conceito  `mobile-first`. 
 
 
 
-## :computer: Feito com:
+## 🎉 Link:
+
+https://imc-calculator-livid.vercel.app/
+
+## 💻 Feito com:
 
 - [![HTML5](https://camo.githubusercontent.com/3fd58db04ae96181db91ff9cee08bca4ca6db9db8dd38f2063f26781eaeb67e4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c352d3030303030303f7374796c653d666c6174266c6f676f3d68746d6c35)](https://camo.githubusercontent.com/3fd58db04ae96181db91ff9cee08bca4ca6db9db8dd38f2063f26781eaeb67e4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c352d3030303030303f7374796c653d666c6174266c6f676f3d68746d6c35)
 
@@ -20,7 +20,7 @@ Este projeto foi desenvolvido para colocar em prática algumas noções  ao que 
 
 - [![JavaScript](https://camo.githubusercontent.com/ddbeaac0298ab7864fff9ed11ff78cc48623e4ff75b6ba770ceeb80fb2aa9685/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030303f7374796c653d666c6174266c6f676f3d6a617661736372697074)](https://camo.githubusercontent.com/ddbeaac0298ab7864fff9ed11ff78cc48623e4ff75b6ba770ceeb80fb2aa9685/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030303f7374796c653d666c6174266c6f676f3d6a617661736372697074)
 
-  
+<hr>  
 
 ## 📂 Estrutura do diretório:
 
@@ -35,6 +35,8 @@ Este projeto foi desenvolvido para colocar em prática algumas noções  ao que 
         - mobile.png
       - js/
         - script.js
+
+<hr>
 
 ## :🎨 Especificações:
 
@@ -52,7 +54,7 @@ Este projeto foi desenvolvido para colocar em prática algumas noções  ao que 
 
   - Branco: `#ffffff`
 
-    
+<hr>
 
 ## 📸 Screenshot:
 

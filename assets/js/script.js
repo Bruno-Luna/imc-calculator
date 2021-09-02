@@ -5,33 +5,29 @@ function calcularIMC(){
          
         var imc = peso / (altura * 2);
 
-       if (imc <= 20){
-        numImc.innerText = imc.toFixed()
+       if (imc <= 18.5){
+        numImc.innerText = imc.toFixed(1)
         res.innerText = 'Abaixo do Peso'
         res.style.color += '#b7094c'
-       } else if( imc > 20 && imc <= 25){
-        numImc.innerText = imc.toFixed()
-        res.innerText = 'Peso Ideal'
+       } else if( imc > 18.5 && imc <= 24.9){
+        numImc.innerText = imc.toFixed(1)
+        res.innerText = 'Peso Normal'
         res.style.color += '#b7094c'
-       }else if( imc > 25 && imc <= 30){
-        numImc.innerText = imc.toFixed()
+       }else if( imc >= 25 && imc <= 29.9){
+        numImc.innerText = imc.toFixed(1)
         res.innerText = 'Sobrepeso'
         res.style.color += '#b7094c'
-       }else if( imc > 30 && imc <= 35){
-        numImc.innerText = imc.toFixed()
-        res.innerText = 'Obesidade Moderada'
+       }else if( imc >= 30 && imc <= 34.9){
+        numImc.innerText = imc.toFixed(1)
+        res.innerText = 'Obesidade Grau I'
         res.style.color += '#b7094c'
-       }else if( imc > 35 && imc <= 40){
-        numImc.innerText = imc.toFixed()
-        res.innerText = 'Obesidade Severa'
+       }else if( imc >= 35 && imc <= 39.9){
+        numImc.innerText = imc.toFixed(1)
+        res.innerText = 'Obesidade Grau II'
         res.style.color += '#b7094c'
-       }else if( imc > 40 && imc <= 50){
-        numImc.innerText = imc.toFixed()
+       }else if( imc >= 40){
+        numImc.innerText = imc.toFixed(1)
         res.innerText = 'Obesidade Mórbida'
-        res.style.color += '#b7094c'
-       }else if ( imc > 50){
-        numImc.innerText = imc.toFixed()
-        res.innerText = 'Super Obesidade'
         res.style.color += '#b7094c'
        }else{
            alert('Por favor, preencha todos os dados.')
