@@ -210,6 +210,13 @@ span a:hover{
         width: 20rem;
         margin-bottom: 0;
     }
+    th{
+        font-size: 1.2rem;
+    }
+    td{
+        font-weight: 500;
+        font-size: 1rem;
+    }
 
     th, td{
         padding: .4rem;

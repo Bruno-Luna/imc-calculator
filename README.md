@@ -1,16 +1,28 @@
-# I.M.C - Calculator
+# I.M.C - Calculator 
 
+Projeto desenvolvido de forma original e que tem por objetivo informar o Índice de Massa Corporal (IMC) do usuário. A operação para chegar ao resultado impresso para o usuário é:  `peso / (altura * 2)`, neste mesmo sentido a linguagem de programação utilizada foi JavaScript.
 
+- Aprendizados/conceitos praticados:
 
-<img src="https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565" alt="APM" style="zoom: 77%;" />
+  ​	
 
-Aplicação web desenvolvida para colocar em prática algumas noções e estudos  ao que se refere, HTML, CSS e JavaScript.  Para além disto, a aplicação foi pensada e executada sob o conceito  `mobile-first`. 
+  > Tabela✔
+  >
+  > Flex-box✔
+  >
+  > Responsividade ✔
+  >
+  > Mobile-first✔
+  >
+  > Document Object Model (DOM) ✔
 
 
 
 ## 🎉 Link:
 
 https://imc-calculator-livid.vercel.app/
+
+
 
 ## 💻 Feito com:
 
@@ -20,7 +32,8 @@ https://imc-calculator-livid.vercel.app/
 
 - [![JavaScript](https://camo.githubusercontent.com/ddbeaac0298ab7864fff9ed11ff78cc48623e4ff75b6ba770ceeb80fb2aa9685/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030303f7374796c653d666c6174266c6f676f3d6a617661736372697074)](https://camo.githubusercontent.com/ddbeaac0298ab7864fff9ed11ff78cc48623e4ff75b6ba770ceeb80fb2aa9685/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030303f7374796c653d666c6174266c6f676f3d6a617661736372697074)
 
-<hr>  
+  
+
 
 ## 📂 Estrutura do diretório:
 
@@ -35,10 +48,10 @@ https://imc-calculator-livid.vercel.app/
         - mobile.png
       - js/
         - script.js
+        - 
 
-<hr>
 
-## :🎨 Especificações:
+## 🎨 Especificações:
 
 - Fonte utilizada:  `Ubuntu, sans-serif;`
 
@@ -54,7 +67,20 @@ https://imc-calculator-livid.vercel.app/
 
   - Branco: `#ffffff`
 
-<hr>
+## Licença
+
+<img align=left src="https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565" alt="APM" style="zoom: 87%;" />
+
+
 
 ## 📸 Screenshot:
 
+- ### Desktop:
+
+![](C:\Users\usuario\Desktop\projetos\imc-calculator\assets\screenshot\desktop.PNG)
+
+
+
+### Mobile:
+
+![](C:\Users\usuario\Desktop\projetos\imc-calculator\assets\screenshot\mobile.PNG)
