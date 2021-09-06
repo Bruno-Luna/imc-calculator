@@ -18,7 +18,7 @@ Projeto desenvolvido de forma original e que tem por objetivo informar o Índice
 
 ## 🎉 Link:
 
-https://imc-calculator-livid.vercel.app/
+https://imc-calculator-omega.vercel.app/
 
 
 
