@@ -118,17 +118,17 @@ p {
     margin: .8rem 0;
 }
 
-h2{
+button {
+    width: 100%;
     font-size: 1.4rem;
-    margin: .8rem 0;
-    text-align: center;
+    font-weight: 600;
     border: 2px solid var(--colorSec); 
+    border-radius: .4rem; 
     padding: .4rem;
+    color: var(--colorSec);
+    cursor: pointer;
 }
 
-h2 a{
-    color: var(--colorPri);
-}
 
 table{
     text-align: center;
