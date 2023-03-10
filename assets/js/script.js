@@ -1,9 +1,17 @@
-function calcularIMC(){
 
-        var peso = parseInt(document.getElementById('peso').value);
-        var altura = parseFloat(document.getElementById('altura').value);
-         
-        var imc = peso / (altura * 2);
+const botaoCalcular = document.querySelector('button')
+
+
+botaoCalcular.addEventListener(`click`, () => { 
+            const peso = parseInt(document.getElementById('peso').value);
+            const altura = parseFloat(document.getElementById('altura').value);
+            verificarImc(peso, altura)
+
+})
+
+const verificarImc = (peso, altura) => {
+
+        const imc = peso / (altura * 2);
 
        if (imc <= 18.5){
         numImc.innerText = imc.toFixed(1)
