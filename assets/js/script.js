@@ -1,11 +1,10 @@
 
 const botaoCalcular = document.querySelector('button')
+const form = document.querySelector('form')
 
 
-botaoCalcular.addEventListener(`click`, () => { 
-            const peso = parseInt(document.getElementById('peso').value);
-            const altura = parseFloat(document.getElementById('altura').value);
-            verificarImc(peso, altura)
+botaoCalcular.addEventListener(`click`, event => {
+        event.preventDefault()
 
 })
 
