@@ -5,8 +5,9 @@ const form = document.querySelector('form')
 
 botaoCalcular.addEventListener(`click`, event => {
         event.preventDefault()
-
+        verificarImc(form.kilos.value, form.altura.value)        
 })
+
 
 const verificarImc = (peso, altura) => {
 
